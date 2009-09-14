@@ -182,7 +182,7 @@ ul, ol { margin-left: 2em; }
   border-bottom: 1px solid #CCC;
 }
 
-.post p, .comment p
+.entry p, .comment p
 {
   font-size: 1.05em;
   margin-bottom: 1em;
