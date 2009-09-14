@@ -1,0 +1,329 @@
+/*
+Theme Name: JROM 10
+Theme URI: http://jrom.net/
+Description: Tema de Jrom.net
+Version: 0.1
+Author: Jordi Romero
+Author URI: http://jrom.net/
+Tags: white, fixed width, two column
+
+*/
+
+* { margin: 0; padding: 0; }
+
+body
+{
+  background-color: #FFF;/*EDF1EF*/
+  color: #222;
+  font-family: georgia, 'Times New Roman', 'Times', serif;
+  line-height: 1.46em;
+  font-size: 15px;
+}
+a:link
+{
+  color: #728499;
+  text-decoration: none;
+}
+a:visited
+{
+  color: #728499;
+  text-decoration: none;
+}
+a:hover
+{
+  color: #4789D0;
+  text-decoration: underline;
+}
+a img { border-width: 0; }
+
+img { margin: 20px auto; }
+
+code
+{
+  font-family: 'Courier New', monospace;
+  background-color: #FFFFFF;
+  border-bottom: 1px solid silver;
+  padding: 0 3px;
+  font-size: 0.8em;
+}
+
+h1, h2, h3, h4,h5, h6
+{ 
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  letter-spacing: -0.05em;
+  display: block;
+
+}
+h1 { font-size: 2em; margin-bottom: 10px;}
+
+h2 { margin: 8px 0;}
+
+h3 { margin-bottom: 5px; }
+h3, h4, h5, h6
+{
+  font-weight: normal;
+}
+
+li { margin-bottom: 8px; }
+
+ul, ol { margin-left: 2em; }
+
+
+.wrap
+{
+  width: 800px;
+  margin: 20px auto;
+}
+
+#cos
+{
+/*  margin: 20px auto;*/
+  width: 500px;
+  float: left;
+}
+
+#header
+{
+  margin: 40px 0 0 0;
+}
+
+#header #descripcio
+{
+  margin: 0 0 20px 0;
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid #CCC;
+}
+
+#titol
+{
+  font-size: 3em;
+  margin: 0 0 20px 0;
+  padding: 0 0 20px 0;
+  border-bottom: 1px solid #CCC;
+}
+
+#titol a
+{
+  color: #4789D0;
+}
+
+#desc, #footer
+{
+  font-size: 1.5em;
+  color: #888888;
+  margin-bottom: 40px;
+}
+
+#sidebar
+{
+  width: 200px;
+  margin: 0 0 50px 50px;
+/*  background-color: white;*/
+  float: right;
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+#sidebar ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+#sidebar ul li
+{
+  font-size: 0.8em;
+  margin: 0 0 0.2em 0;
+}
+
+#sidebar ul li a
+{
+  color: #333;
+  text-decoration: none;
+}
+
+#sidebar ul li a:hover
+{
+  color: #50AF13;
+}
+
+#sidebar #buscador
+{
+  margin: 0 0 2em 0;
+}
+
+#sidebar #buscador input
+{
+  width: 96%;
+  color: #666;
+}
+
+.infopost
+{
+  color: #666666;
+  line-height: 1em;
+  font-size: 0.9em;
+}
+
+.entry a, #footer a
+{
+  color: #4789D0;
+}
+
+.post a.permalink
+{
+  margin-left: 0.4em;
+  font-size: 1.5em;
+}
+
+.post, .page
+{
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #CCC;
+}
+
+.post p, .comment p
+{
+  font-size: 1.05em;
+  margin-bottom: 1em;
+}
+
+.error
+{
+  margin: 40px;
+}
+
+.entry
+{
+  margin-top: 20px;
+}
+
+.linked_list .entry
+{
+  margin-top: 5px;
+}
+
+.archivos h2
+{
+  color: #666;
+}
+
+.archivos .infopost
+{
+  font-family: georgia, 'Times New Roman', 'Times', serif;
+  font-size: 0.8em;
+}
+
+.archivos .infopost a.permalink
+{
+  font-size: 1.5em;
+}
+
+ol.commentlist
+{
+  margin: 0;
+}
+.comment
+{
+  display: block;
+/*  background-color: #FFFFFF;*/
+  color: #444;
+  border-bottom: 1px solid #CCCCCC;
+  padding: 10px;
+}
+
+.comment .vcard .avatar
+{
+  float: left;
+  margin-right: 10px;
+  margin-top: 0;
+}
+
+.comment .fn
+{
+  font-size: 1.5em;
+/*  line-height: 2em;*/
+}
+.comment cite.fn
+{
+  font-style: normal;
+}
+
+.comment .comment-meta
+{
+  font-size: 0.9em;
+}
+
+.comment .says
+{
+  display: none;
+}
+
+.comment .wp_syntax
+{
+  clear: both;
+}
+
+.comment p
+{
+  clear: both;
+}
+
+#comments
+{
+  margin-bottom: 40px;
+}
+
+#respond
+{
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  padding: 10px;
+  border-bottom: 1px solid #CCC;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+}
+
+.commentlist
+{
+  margin-bottom: 40px;
+}
+
+#respond label
+{
+  display: block;
+  font-weight: bold;
+  padding-top: 1em;
+  color: #888888;
+}
+  #respond label input
+  {
+    display: block;
+  }
+  
+.req
+{
+  font-weight: bold;
+  font-size: 1.4em;
+  color: #C30000;
+}
+
+input
+{
+    padding: 0.1em;
+}
+
+textarea
+{
+  padding: 0.5em;
+}
+
+blockquote
+{
+  border-left: 6px solid #A5CC98; /*A5CC98*/
+  padding-left: 20px;
+  font-style: italic;
+}
+.clear
+{
+  clear: both;
+}
